@@ -459,7 +459,7 @@ iframe{
 
 #second_box{
     background-color:rgba(128, 128, 128,0.9);
-    height: 600px;
+    height: auto;
     border-radius: 12px;
     padding: 5px;
 }
