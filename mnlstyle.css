@@ -405,11 +405,21 @@ button {
     background-color: slategrey;
     color:white;
     padding:10px;
+    display: flex;
+    flex-wrap: wrap;
  }
 
 #footer a{
     color: white;
     font-size:10px;
+}
+
+.column1, .column2{
+width:50%;
+}
+
+.column2{
+    margin-top:45px;
 }
 
 .content_wrapper{
