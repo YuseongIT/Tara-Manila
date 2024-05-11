@@ -407,6 +407,10 @@ button {
     padding:10px;
  }
 
+#footer a{
+    color: white;
+}
+
 .content_wrapper{
     display: flex;
     justify-content: center;
