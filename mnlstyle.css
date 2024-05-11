@@ -387,6 +387,7 @@ button {
     #first_box{
         max-width: 100%;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
     #second_box {
         max-width: 100%;
@@ -431,19 +432,22 @@ width:50%;
 
  #first_box{
     background-color:rgba(128, 128, 128,0.9);
-    width: 450px;
     height: 550px;
     border-radius: 12px;
     color:#ffffff;
 }
 
+iframe{
+    width:500px;
+    height: 250px;
+}
 
 .content_1{
     background-image: url("IMAGES/content-bg.png");
-    height: 90vh;
-    background-size: cover;
+    height: auto;
+    background-size: contain;
     background-position: center;
-    padding:0px 80px;
+    padding:30px 80px;
     display: flex;;
     flex-direction: column;
     justify-content: center;
@@ -455,7 +459,6 @@ width:50%;
 
 #second_box{
     background-color:rgba(128, 128, 128,0.9);
-    width: 655px;
     height: 600px;
     border-radius: 12px;
     padding: 5px;
